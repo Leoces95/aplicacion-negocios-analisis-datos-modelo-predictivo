@@ -1,0 +1,29 @@
+# Datos (se regeneran con: python -m src.etl)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/
+
+# Documentos internos del equipo (se comparten por Drive, no van al repo)
+docs/plan_de_trabajo.*
+docs/guion_presentacion.*
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# Power BI: archivos temporales
+dashboard/*.pbix.bak
+~$*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
