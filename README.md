@@ -37,10 +37,10 @@ nacionales de Brasil, eventos comerciales y regiones del IBGE (en `src/config.py
 │   ├── calidad.py           ← reglas de calidad de datos
 │   └── features.py          ← variables del modelo (sin fuga de información)
 ├── notebooks/
-│   ├── 01_etl.ipynb         ← Harol
-│   ├── 02_eda.ipynb         ← Leonel
-│   ├── 03_kpis_bi.ipynb     ← Yulieth (KPIs en SQL para cuadrar el dashboard)
-│   └── 04_modelado.ipynb    ← Jalvi
+│   ├── 01_etl.ipynb         ← recopilación, limpieza y transformación (ETL)
+│   ├── 02_eda.ipynb         ← análisis exploratorio de datos
+│   ├── 03_kpis_bi.ipynb     ← modelo de datos para BI y KPIs en SQL (cuadre del dashboard)
+│   └── 04_modelado.ipynb    ← modelo predictivo de riesgo de retraso
 ├── dashboard/               ← .pbix, guía de construcción, medidas DAX, tema y capturas
 ├── docs/                    ← informe final, presentación y diccionario de datos
 └── reports/figures/         ← gráficas exportadas por los notebooks
